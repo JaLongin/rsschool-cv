@@ -13,5 +13,5 @@ Entry level student looking for an entry-level position as front-end developer, 
 Undergraduate in Belarusian State University (2020-2025)
 Major: mechanics and mathematical modeling
 
-## Language 
-English B2
+##  English
+ B2

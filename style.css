@@ -1,0 +1,165 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+.header,.footer{
+    flex: none;
+    width: 100%;
+    background-color: rgb(12, 92, 122);
+    padding: 0 ;
+}
+
+body {
+    border: 0;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: bisque;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link{
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+    text-decoration: none;
+    color: rgb(250, 152, 25);
+    font-family: 'Joan', sans-serif;
+    font-size: 1.5em;
+}
+
+.gitlink:hover,.nav-link:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.header {
+    background-color: rgb(12, 92, 122);
+}
+
+#main-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: aquamarine;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    height: 100%;
+    flex-grow: 1;
+    width: 100% ;
+}
+
+.section {
+    width: 45%;
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
+.section-title{
+    font-family: 'Joan', sans-serif;
+    text-transform: uppercase;
+    color: rgb(19, 17, 17);
+    font-size: 2em;
+    text-align: left;
+}
+
+#profile {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.avatar-picture{
+    width: 220px;
+    height: 220px;
+    border-radius: 100%;
+    border: none;
+}
+@media (max-width:768px){
+    .avatar-picture {
+        width: 80px;
+        height: 80px;
+        border-radius: 0%;
+    }
+}
+.bottom-line-profile{
+    color:rgb(128, 88, 22);
+
+    font-size:  1.6em;
+}
+.icon{
+    height: auto;
+    width: 1em;
+}
+.contacts-list{
+    list-style: none;
+    font-size: 1.4em;
+    padding-left: 0%;
+}
+
+.ul{
+    list-style: circle;
+    font-size: 1.4em;
+    padding-left: 1em;
+}
+
+.p{
+    font-size: 1.4em;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin: 0 10%;
+
+}
+.small-text{
+    margin: 0%;
+    margin-left: 0.5em;
+}
+.RSLogo{
+    width: auto;
+    height: 60px;
+    margin: 20px 0;
+}
+.left-footer{
+    margin: auto 0;
+    max-width: 150px;
+}
+
+.gitlink,.LogoLink{
+    transition: .3s;
+}
+
+.LogoLink:hover{
+    color: white;
+    box-shadow: 0px 40px 40px 40px rgb(16, 37, 201)
+}

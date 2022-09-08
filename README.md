@@ -1,2 +1,2 @@
 
-https://JaLongin.github.io/rsschool-cv/cv
+https://JaLongin.github.io/rsschool-cv/
